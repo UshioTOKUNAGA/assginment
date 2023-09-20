@@ -8,6 +8,14 @@ img{
 /*-------------------------------------------
 セクション__main visual
 -------------------------------------------*/
+.secMainVisual__img{
+    width: 100%;
+    height: auto;
+}
+
+/*-------------------------------------------
+セクション__secRecipeDiary
+-------------------------------------------*/
 .secRecipeDiary{
     text-align: center;
 }
@@ -18,4 +26,23 @@ img{
 }
 .secRecipeDiary__txt{
     margin-top: 30px;
+}
+
+/*-------------------------------------------
+セクション__secPhotoLis
+-------------------------------------------*/
+.secPhotoLis__photos{
+    display: flex;
+    /* width: auto;
+    height: auto; */
+    margin-top: 80px;
+}
+/* .secPhotoLis__photosItem>li{
+    width: calc(100%/3);
+} */
+.secPhotoLis__photosItem{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    vertical-align: bottom;
 }
