@@ -12,11 +12,21 @@ mainWrap
     display: flex;
     justify-content: flex-end;
 }
+@media screen and (max-width: 834px){
+    .mainWrap{
+        flex-direction:column;
+    }
+}
 
 .textContWrap{
     flex-direction:column;
     width: 40%;
     margin: 0 auto;
+}
+@media screen and (max-width: 834px){
+    .textContWrap{
+        width: 90%;
+    }
 }
 
 /*-------------------------------------------
@@ -26,6 +36,11 @@ dishImg
     width: 50%;
     height: 700px;
     object-fit: cover;
+}
+@media screen and (max-width: 834px){
+    .dishImg{
+        width: 100%;
+    }
 }
 
 /*-------------------------------------------
@@ -93,6 +108,11 @@ dishImg
     text-align: center;
     padding: 20px 75px;
     width: 20%;
+}
+@media screen and (max-width: 834px){
+    .btn{
+        width: 40%;
+    }
 }
 
 /*-------------------------------------------
