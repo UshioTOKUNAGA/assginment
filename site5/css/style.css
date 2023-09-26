@@ -1,8 +1,22 @@
 /*-------------------------------------------
-共通のレイアウト
+サイト共通のレイアウト
 -------------------------------------------*/
 img{
     max-width: 100%;
+}
+
+/*-------------------------------------------
+mainWrap
+-------------------------------------------*/
+.mainWrap{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textContWrap{
+    flex-direction:column;
+    width: 40%;
+    margin: 0 auto;
 }
 
 /*-------------------------------------------
@@ -12,4 +26,56 @@ dishImg
     width: 50%;
     height: 700px;
     object-fit: cover;
+}
+
+/*-------------------------------------------
+セクション__dishDesc
+-------------------------------------------*/
+.dishDesc{
+    margin-top: 45px;
+}
+.dishDesc__heading{
+    font-size: 150%;
+    font-weight: bold;
+}
+.dishDesc__txt{
+    margin-top: 50px;
+}
+
+/*-------------------------------------------
+セクション__ingredient
+-------------------------------------------*/
+.ingredient{
+    margin-top: 45px;
+}
+.ingredient__heading{
+    font-size: 120%;
+    font-weight: bold;
+    border-bottom: 1px solid #c8c8c8;
+}
+.ingredient__lis{
+    margin-top: 20px;
+}
+.ingredient__lisItem{
+    border-bottom: 1px dashed #c8c8c8;
+    padding: 10px 0;
+}
+
+/*-------------------------------------------
+セクション__howTo
+-------------------------------------------*/
+.howTo{
+    margin-top: 45px;
+}
+.howTo__heading{
+    font-size: 120%;
+    font-weight: bold;
+    border-bottom: 1px solid #c8c8c8;
+}
+.howTo__lis{
+    margin-top: 20px;
+}
+.howTo__lisItem{
+    border-bottom: 1px dashed #c8c8c8;
+    padding: 10px 0;
 }
