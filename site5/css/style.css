@@ -79,3 +79,38 @@ dishImg
     border-bottom: 1px dashed #c8c8c8;
     padding: 10px 0;
 }
+
+/*-------------------------------------------
+ボタン
+-------------------------------------------*/
+.btnWrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.btn{
+    border: solid 1px #2b2a27;
+    text-align: center;
+    padding: 20px 75px;
+    width: 20%;
+}
+
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+.footer{
+    margin-top: 120px;
+}
+.footer__snsLinks{
+    display: flex;
+    justify-content: center;
+}
+.footer__snsLink{
+    text-decoration: underline;
+    margin: 0 30px;
+}
+.footer__copyRight{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
